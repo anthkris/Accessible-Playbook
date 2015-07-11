@@ -1,0 +1,522 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4 {
+	font-weight: bold;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px 'Open Sans', Helvetica, Helvetica Neue, Arial;
+	background: rgb(28,28,28);
+	counter-reset: plays;
+}
+
+.wrapper, .play-wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+/* ===================
+    Theme
+   =================== */
+   
+a {
+	color: #fff;
+	text-decoration: none;
+}
+.main-header {
+	/*background: url(../img/blind_sm.png) top right no-repeat; */
+}
+.title {
+	font-weight: bold;
+	line-height: 1em;
+}
+#plays{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+}
+
+#plays li:before {
+	counter-increment: plays;
+	content: counter(plays, decimal);
+	float: left;
+	padding-right: 30px;
+	font: bold 3em/1 'Open Sans';
+}
+
+#plays li  {
+	border-top: 1px #808080 solid;
+	line-height: 1.5em;
+	
+}
+
+.se-container{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+
+.se-slope {
+		margin: 0 -100px;
+	}
+
+.skew1{
+	-webkit-transform-origin: left center 0px;
+	-moz-transform-origin: left center 0px;
+	-o-transform-origin: left center 0px;
+	-ms-transform-origin: left center 0px;
+	transform-origin: left center 0px;
+	background: #44749D;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+	box-shadow: 0px -1px 3px rgba(0,0,0,0.4);
+	padding-bottom: 50px;
+}
+
+.skew2{
+	-webkit-transform-origin: left center 0px;
+	-moz-transform-origin: left center 0px;
+	-o-transform-origin: left center 0px;
+	-ms-transform-origin: left center 0px;
+	transform-origin: left center 0px;
+	background: #A80000;
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.4) inset;
+	padding-bottom: 50px;
+}
+
+.skew3{
+	margin-top: -300px;
+}
+
+.se-content{
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	
+}
+
+.se-content2{
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.play-page {
+	background: rgb(28,28,28);
+}
+
+.footer-container {
+    border-top: 0.5px solid #808080;
+}
+
+.footer-container h3{
+    color: white;
+}
+
+.footer-container a {
+	text-decoration: underline;
+}
+
+.checklist ul, .questions ul{
+	list-style-position: outside;
+	display: block;
+}
+
+.buttons {
+	background: transparent;
+	border: 1px solid white;
+	padding: 15px;
+}
+
+.buttons:hover{
+	background: #fff;
+	color: #1c1c1c;
+}
+
+.checklist, .questions, .resources{
+	padding-left: 0px;
+}
+.checklist h3, .questions h3, .resources h3 {
+	font-size: 2.5em;
+}
+
+
+.checklist  li, .questions li, .resources li {
+	list-style-type: none;
+}
+
+.checklist li:before {
+    content: "\2B1C";
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.questions li:before {
+    content: "\25EF";
+	padding-right: 10px;
+}
+
+.return:before
+{
+    content: "\25C0";
+	padding-right: 10px;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 200px) {
+
+/* ====================
+    SMALL
+   ==================== */
+   .title {
+	font-size: 2.5em;
+	}
+	
+	#plays, .subtitle {
+		font-size: 1.3em;
+	}
+	
+	#plays li:before {
+	font: bold 2em/1 'Open Sans';
+	}
+	
+	.play-text {
+		font-size: 1.2em;
+	}
+	.wrapper {
+		width: 90%;
+	}
+	
+	.play-wrapper {
+		width: 50%;
+	}
+	
+	.checklist h3, .questions h3, .resources h3 {
+		font-size: 2em;
+	}
+	
+	.se-content, .se-content2{
+		padding: 50px 50px 125px 50px;
+	}
+	
+	.skew3{
+	margin-top: -200px;
+}
+ } 
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE
+   ==================== */
+	.title {
+	font-size: 4em;
+	}
+	
+	#plays, .subtitle {
+		font-size: 2em;
+	}
+	
+	.main-header {
+		margin-bottom: 40px;
+	}
+	
+	.buttons {
+		font-size: 1em;
+	}
+	
+	.se-content, .se-content2{
+		padding: 50px 50px 125px 50px;
+	}
+	
+	.play-text {
+		font-size: 1.2em;
+	}
+	
+	.wrapper {
+		width: 80%;
+	}
+	.play-wrapper {
+		width: 50%;
+	}
+    
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE
+   ==================== */
+
+.title {
+	font-size: 4.5em;
+}
+
+	#plays {
+		font-size: 3em;
+	}
+	#plays li {
+		padding: 20px 0px;
+	}
+
+	.main-header {
+		margin-bottom: 40px;
+	}
+	
+	.buttons {
+		margin-top: 20px;
+		font-size: 1.3em;
+	}
+	
+	.se-content, .se-content2{
+		padding: 50px 100px 150px 100px;
+	}
+	
+	.wrapper {
+		width: 60%;
+	}
+	
+	.play-wrapper {
+		width: 60%;
+	}
+	.play-text {
+	font-size: 1.5em;
+	line-height: 1.4em;
+	}
+}
+	
+}
+
+@media only screen and (min-width: 1920px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1728px; /* 1920px - 5% for margins */
+    }
+	.title {
+	font-size: 6em;
+	}
+	
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
