@@ -1,0 +1,19 @@
+Before even beginning to talk about or design for accessibility, you should explore what accessibility really means to an online audience. Accessibility is not merely a matter of screen readers. The Web Content Accessibility Guidelines (WCAG 2.0), written by the World Wide Web Consortium (W3C) are the resource for making sure that web content is perceivable, operable, understandable, and robust. By aligning your development with these key areas, you take steps to ensure that people with disabilities across the wide physical and cognitive spectrum can access your learning experience with ease.
+
+To Do
+-Before you get in a tizzy about accessibility, familiarize yourself with the WCAG 2.0 guidelines
+-Talk with stakeholders about the target audience of your content
+-Consider the levels of conformance with WCAG 2.0 (Level A, AA, and AAA) and talk with stakeholders on how deeply you need to get into accessibility for a particular project. Not all projects will be the same.
+
+Ask Yourself
+-Who is my target audience?
+-Will the people in my audience be able to perceive the content I create?
+-Will the people in my audience be able to operate my interactions?
+-Will the people in my audience be able to understand the content I've written?
+-Will my design lend itself to being accessed by current and future technologies? Will it degrade well?
+
+Further Reading and Resources
+-Web Content Accessibility Guidelines (WCAG 2.0)
+-WCAG 2.0 Quick Reference
+-WebAIM WCAG 2.0 Checklist
+-A11Y Project Myth: Accessibility is for Blind People
