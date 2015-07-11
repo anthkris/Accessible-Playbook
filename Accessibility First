@@ -1,0 +1,18 @@
+You've probably heard of a mobile-first design philosophy. In short, when designing web content, this methodology advocates for making your content work for a mobile audience, first. Good instructional design should take a similar accessibility-first approach. Instead of trying to retro-fit your design with accessible activities and interactions, you should begin by thinking about and designing activities, interactions, and design structures that are usable and accessible for your entire audience. Once your design works in an accessible format, you can then augment the design with non-essential animations, images, and interactions. In that way, you ensure that your audience has access to the same information and activities that are equally rigorous.
+
+To Do
+-Early in in your project, ensure that you know your audience and what they will need.
+-During prototyping and design phases, begin by designing universally accessible context, information, interactions, and -activities
+-Ensure that all essential information and activity works technically and instructionally before augmenting the design with non-essentials
+
+Ask Yourself
+-What is the essential information that users need from this experience?
+-What is the context and purpose of my activities?
+-Is my activity usable and instructionally sound without extras?
+
+Further Reading and Resources
+-UX Matters: Accessibility First
+-Usability First: Principles of Accessible and Universal Design
+-Empat.io: A Web Project seeking to put stories on the need for accessible design
+-Progressive Enhancement is Still Important
+-On Progressive Enhancement
